@@ -17,7 +17,7 @@ export default function faqPage() {
         MobLabs is for content creators and fans who are looking to build next generation web3 enabled communities.
       </Accordion>
       <Accordion title="Q: How do I participate?">
-        You can't yet.
+        Currently unavailable.
       </Accordion>
     </Wrapper>
 
