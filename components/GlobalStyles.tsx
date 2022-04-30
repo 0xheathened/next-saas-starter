@@ -25,26 +25,28 @@ export const GlobalStyle = createGlobalStyle`
   --modalBackground: 251,251,253;
   --errorColor: 207,34,46;
   --logoColor: #243A5A;
+  --footerColor: 235,94,40;
 }
 
 .next-dark-theme {
-  --background: 25, 25, 25;
-  --secondBackground: 37,36,34;
+  --background: 0,0,0;
+  --secondBackground: 0,0,0;
   --text: 237,237,238;
   --textSecondary: 255,255,255;
   --primary: 235, 94, 40; 
-  --secondary: 10,18,30;
+  --secondary: 0,0,0;
   --tertiary: 235, 94, 40;
   --cardBackground: 45,55,72;
   --inputBackground: 45,55,72;
-  --navbarBackground: 37,36,34 + "aa";
-  --modalBackground: 26,32,44;
+  --navbarBackground: 0,0,0;
+  --modalBackground: 0,0,0;
   --errorColor: 207,34,46;
   --logoColor: #fff;
+  --footerColor: 235, 94, 40; 
 }
 
 :root {
-  --font: 'Poppins', sans-serif;
+  --font: 'Titillium Web', sans-serif;
   
   --shadow-md: 0 2px 4px 0 rgb(12 0 46 / 4%);
   --shadow-lg: 0 10px 14px 0 rgb(12 0 46 / 6%);

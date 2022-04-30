@@ -13,35 +13,35 @@ const footerItems: FooterItems = [
   {
     title: 'Company',
     items: [
-      { title: 'Privacy Policy', href: '/privacy-policy' },
-      { title: 'Cookies Policy', href: '/cookies-policy' },
+      { title: 'About', href: '/about' },
+      //{ title: 'Privacy Policy', href: '/privacy-policy' },
     ],
   },
   {
     title: 'Product',
     items: [
+      { title: 'White Paper', href: '/whitepaper' },
       { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
+      //{ title: 'Something else', href: '/something-else' },
+      //{ title: 'And something else', href: '/and-something-else' },
     ],
   },
   {
     title: 'Knowledge',
     items: [
       { title: 'Blog', href: '/blog' },
-      { title: 'Contact', href: '/contact' },
+      //{ title: 'Contact', href: '/contact' },
       { title: 'FAQ', href: '/faq' },
-      { title: 'Help Center', href: '/help-center' },
+      //{ title: 'Help Center', href: '/help-center' },
     ],
   },
   {
-    title: 'Something',
+    title: 'Contact',
     items: [
-      { title: 'Features2', href: '/features2' },
-      { title: 'Something2', href: '/something2' },
-      { title: 'Something else2', href: '/something-else2' },
-      { title: 'And something else2', href: '/and-something-else2' },
+      //{ title: 'Contact Information', href: '/contact' },
+      { title: 'Email Us', href: '/contact' },
+      //{ title: 'Something else2', href: '/something-else2' },
+      //{ title: 'And something else2', href: '/and-something-else2' },
     ],
   },
 ];
@@ -59,23 +59,23 @@ export default function Footer() {
           <ShareBar>
             <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
               <a>
-                <TwitterIcon size={50} round={true} />
+                <TwitterIcon size={50} round={true} iconFillColor="#ff5a01" />
               </a>
             </NextLink>
 
             <NextLink href="https://www.facebook.com/my-saas-startup" passHref>
               <a>
-                <FacebookIcon size={50} round={true} />
+                <FacebookIcon size={50} round={true} iconFillColor="#ff5a01" />
               </a>
             </NextLink>
 
             <NextLink href="https://www.linkedin.com/my-saas-startup" passHref>
               <a>
-                <LinkedinIcon size={50} round={true} />
+                <LinkedinIcon size={50} round={true} iconFillColor="#ff5a01"/>
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2021 My Saas Startup</Copyright>
+          <Copyright>&copy; Copyright 2022 MobLabs Inc.</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>
@@ -106,7 +106,7 @@ function ListItem({ title, href }: SingleFooterListItem) {
 const FooterWrapper = styled.div`
   padding-top: 10rem;
   padding-bottom: 4rem;
-  background: rgb(var(--secondary));
+  background: rgb(var(--footerColor));
   color: rgb(var(--textSecondary));
 `;
 
